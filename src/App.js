@@ -12,6 +12,7 @@ class App extends React.Component {
   }
 
   onEditorChange = (e) => {
+    console.log(e);
     this.setState({
       data: e.editor.getData()
     });
